@@ -1,0 +1,256 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Garden • Progress</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+</head>
+<body class="page-progress">
+<header class="site-header">
+  <div class="top-bar">
+    <div class="logo">
+      <div class="logo-icon">
+        <i class="bi bi-flower3"></i>
+      </div>
+      <span>My Garden</span>
+    </div>
+    <nav class="main-nav">
+      <a href="index.html" class="active">
+        <i class="bi bi-bar-chart-line"></i><span>Progress</span>
+      </a>
+      <a href="moodboard.html">
+        <i class="bi bi-grid-3x3-gap"></i><span>Plant Moodboard</span>
+      </a>
+      <a href="greenhouse.html">
+        <i class="bi bi-camera-reels"></i><span>Greenhouse Tour</span>
+      </a>
+      <a href="photos.html">
+        <i class="bi bi-image"></i><span>My Photos</span>
+      </a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrapper">
+  <section class="page-heading">
+    <h1 class="page-title">
+      <i class="bi bi-graph-up-arrow soft-icon"></i>
+      My Garden Progress
+    </h1>
+    <div class="sub-nav">
+      <button class="sub-nav-item is-active">
+        <i class="bi bi-graph-up"></i> Progress
+      </button>
+      <a href="#calendar" class="sub-nav-item">
+        <i class="bi bi-calendar-heart"></i> Calendar
+      </a>
+      <a href="photos.html" class="sub-nav-item">
+        <i class="bi bi-images"></i> My Photos
+      </a>
+    </div>
+  </section>
+
+  <!-- Status Card -->
+  <section class="status-card">
+    <div class="status-header">
+      <div class="status-icon">
+        <i class="bi bi-emoji-smile"></i>
+      </div>
+      <div>
+        <p class="status-label">Your plant today</p>
+        <h2 class="status-title">Your Cherry Tomatoes Today!</h2>
+      </div>
+    </div>
+
+    <div class="progress-row">
+      <p class="progress-label">Growth Progress</p>
+      <div class="progress-bar">
+        <div class="progress-bar-fill" style="width: 55%;"></div>
+      </div>
+    </div>
+
+    <div class="status-meta-row">
+      <div class="meta-card">
+        <div class="meta-icon-pill">
+          <i class="bi bi-droplet-half"></i>
+        </div>
+        <div>
+          <p class="meta-label">Last Watered</p>
+          <p class="meta-value">Yesterday</p>
+        </div>
+      </div>
+      <div class="meta-card purple">
+        <div class="meta-icon-pill">
+          <i class="bi bi-flag-fill"></i>
+        </div>
+        <div>
+          <p class="meta-label">Next Milestone</p>
+          <p class="meta-value">First flowers</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="tip-card">
+      <div class="tip-icon">
+        <i class="bi bi-stars"></i>
+      </div>
+      <div>
+        <p class="tip-title">This Week's Tip</p>
+        <p class="tip-text">
+          Make sure your plant gets 6–8 hours of sunlight daily. Keep soil lightly moist!
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="newsletter-card">
+  
+    <h2 class="visually-hidden">Email newsletter signup</h2>
+
+    <div class="newsletter-left">
+      <span class="pill-pill">
+        <i class="bi bi-envelope-open-heart"></i>
+        Get Weekly Progress Updates
+      </span>
+      <p class="newsletter-text">
+        Plant updates in your inbox <span class="sparkle">✨</span>
+      </p>
+    </div>
+    <form class="newsletter-form">
+      <input type="email" placeholder="Enter your email" aria-label="Email">
+      <button type="submit" class="btn-primary">
+        <i class="bi bi-heart-fill"></i>
+        Subscribe
+      </button>
+    </form>
+  </section>
+
+  <!-- Weekly Calendar -->
+  <section id="calendar" class="calendar-section">
+    <h2 class="section-title">
+      <i class="bi bi-calendar3"></i>
+      Weekly Calendar
+    </h2>
+
+    <article class="week-card complete">
+      <header class="week-header">
+        <div class="week-icon">
+          <i class="bi bi-check2-circle"></i>
+        </div>
+        <div>
+          <p class="week-title">Week 1: Germination</p>
+          <p class="week-subtitle">Your seeds are sprouting!</p>
+        </div>
+      </header>
+      <div class="week-body">
+        <h3>Weekly Tasks</h3>
+        <ul>
+          <li>Keep soil moist (not soggy)</li>
+          <li>Keep temperature around 65–75°F</li>
+          <li>Use gentle, indirect sunlight</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="week-card complete">
+      <header class="week-header">
+        <div class="week-icon">
+          <i class="bi bi-check2-circle"></i>
+        </div>
+        <div>
+          <p class="week-title">Week 2: First Leaves</p>
+          <p class="week-subtitle">True leaves begin to form.</p>
+        </div>
+      </header>
+      <div class="week-body">
+        <h3>Weekly Tasks</h3>
+        <ul>
+          <li>Give a bit more light each day</li>
+          <li>Water when the top soil dries</li>
+          <li>Rotate pots to keep growth straight</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="week-card active">
+      <header class="week-header">
+        <div class="week-icon">
+          <i class="bi bi-hourglass-split"></i>
+        </div>
+        <div>
+          <p class="week-title">Week 3: Vegetative Growth</p>
+          <p class="week-subtitle">More leaves and stronger stems.</p>
+        </div>
+      </header>
+      <div class="week-body">
+        <h3>Weekly Tasks</h3>
+        <ul>
+          <li>Start a light fertilizer schedule</li>
+          <li>Give 6–8 hours of sunlight</li>
+          <li>Check leaves for pests</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="week-card">
+      <header class="week-header">
+        <div class="week-icon">
+          <i class="bi bi-clock-history"></i>
+        </div>
+        <div>
+          <p class="week-title">Week 4: Getting Ready to Flower</p>
+          <p class="week-subtitle">Plants are almost ready to bloom.</p>
+        </div>
+      </header>
+      <div class="week-body">
+        <h3>Weekly Tasks</h3>
+        <ul>
+          <li>Support stems if leaning</li>
+          <li>Keep watering consistent</li>
+          <li>Remove extra side shoots</li>
+        </ul>
+      </div>
+    </article>
+  </section>
+
+  <!-- Preview photos -->
+  <section class="section-photos-preview">
+    <div class="section-head">
+      <h2 class="section-title">
+        <i class="bi bi-images"></i>
+        My Photos
+      </h2>
+      <a href="photos.html" class="link-inline">
+        View all <i class="bi bi-arrow-right-short"></i>
+      </a>
+    </div>
+    <div class="photo-grid">
+      <article class="photo-card">
+        <img src="images/cherry-tomato.jpg" alt="Cherry tomato plant">
+        <div class="photo-meta">
+          <h3>Cherry Tomato — Day 15</h3>
+        </div>
+      </article>
+      <article class="photo-card">
+        <img src="images/sunflowers.jpg" alt="Sunflowers">
+        <div class="photo-meta">
+          <h3>Sunflowers — Day 28 ☀️</h3>
+        </div>
+      </article>
+      <article class="photo-card">
+        <img src="images/herb-garden.jpg" alt="Herb garden">
+        <div class="photo-meta">
+          <h3>Herb Garden — First Harvest ✅</h3>
+        </div>
+      </article>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p>Grow-Along Garden • My Garden Dashboard</p>
+</footer>
+</body>
+</html>
